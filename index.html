@@ -3,14 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
-    <h1>API de Filmes</h1>
-    <input type="text" name="search" value="">
-    <button>Buscar</button>
-    <div id="error" style="color: red;"></div>
-    <div>
+    <div class="main">
+        <h1>API de Filmes</h1>
+        <input type="text" name="search" value="">
+        <button>Buscar</button>
+        <div id="error" style="color: red;"></div>
         <p><span>Title: </span><span class="title"></span></p>
         <p><span>Year: </span><span class="year"></span></p>
         <p><span>Director: </span><span class="director"></span></p>
